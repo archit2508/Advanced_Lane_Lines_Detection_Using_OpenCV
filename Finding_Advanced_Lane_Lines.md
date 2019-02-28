@@ -13,13 +13,12 @@
 
 [//]: # (Image References)
 
-[image1]: ./examples/undistort_output.png "Undistorted"
-[image2]: ./test_images/test1.jpg "Road Transformed"
-[image3]: ./examples/binary_combo_example.jpg "Binary Example"
-[image4]: ./examples/warped_straight_lines.jpg "Warp Example"
-[image5]: ./examples/color_fit_lines.jpg "Fit Visual"
-[image6]: ./examples/example_output.jpg "Output"
-[video1]: ./project_video.mp4 "Video"
+[image1]: ./camera_cal_output/calibration.jpg
+[image2]: ./Outputs/1.png 
+[image3]: ./Outputs/2.png 
+[image4]: ./Outputs/3.png 
+[image5]: ./Outputs/4.png 
+[image6]: ./Outputs/5.png 
 
 ## [Rubric](https://review.udacity.com/#!/rubrics/571/view) Points
 
