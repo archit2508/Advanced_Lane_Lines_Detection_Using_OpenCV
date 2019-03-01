@@ -433,11 +433,11 @@ def process_image(image):
 
 ### Discussion
 
-#### 1. Briefly discuss any problems / issues you faced in your implementation of this project.  Where will your pipeline likely fail?  What could you do to make it more robust?
+#### Issues and Challenges | Failure points | Scope of Improvement
 
 **One major challenge was to detect lane lines during change of light in the video, especially the parts where there was too much sunlight or too dark shadow which almost hid the lane lines to be detected.**
 * I handled this issue by writing an algo which can detect whether the polynomial coefficients deduced for a given frame give desired lane lines or not. In case this algo returned false, I used the coefficients deduced in the previous frame in video which gave good lane lines because previous polynomial is highly unlikely to get drastically changed in next frame as the car is moving between same lane lines.
 
-**This pipeline may fail where lane lines are not visible due to some vehicular object overlapping the lines for a consistent good long time. Moreover, even if we continue using the coefficients of the last good frame, it may fail if the lane lines have taken sharp turn in between **
+**This pipeline may fail where lane lines are not visible due to some vehicular object overlapping the lines for a consistent good long time. Moreover, even if we continue using the coefficients of the last good frame, it may fail if the lane lines have taken sharp turn in between**
 
 **More short intervals can be used to average over for scenarios where lane lines take sharp turns very frequently and very fast, even in the same frame because intervals such as used in my current pipeline can fail when a single interval/window has lines taking turns more than one time which then wouldnt give good coefficients**
