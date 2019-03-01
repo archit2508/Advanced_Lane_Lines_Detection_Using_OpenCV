@@ -13,7 +13,7 @@
 
 [//]: # (Image References)
 
-[image1]: ./camera_cal_output/calibration.jpg
+[image1]: ./Outputs/6.png 
 [image2]: ./Outputs/1.png 
 [image3]: ./Outputs/2.png 
 [image4]: ./Outputs/3.png 
