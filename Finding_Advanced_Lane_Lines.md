@@ -18,7 +18,7 @@
 [image3]: ./Outputs/2.png 
 [image4]: ./Outputs/3.png 
 [image5]: ./Outputs/4.png 
-[image6]: ./Outputs/5.png 
+[image6]: ./Outputs/7.png 
 
 ## [Rubric](https://review.udacity.com/#!/rubrics/571/view) Points
 
